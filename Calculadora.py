@@ -26,15 +26,16 @@ num1 = float(input("Digite o primeiro número: "))
 num2 = float(input("Digite o segundo número: "))
 
 # Executa
+# Caso o usuário digite 1, será feito a operação de soma
 if operacao == '1':
     print(num1, "+", num2, "=", adicao(num1, num2))
-
+# Caso o usuário digite 2, será feito a operação de subtração
 elif operacao == '2':
     print(num1, "-", num2, "=", subtracao(num1, num2))
-
+# Caso o usuário digite 3, será feito a operação de multiplicação
 elif operacao == '3':
     print(num1, "*", num2, "=", multiplicacao(num1, num2))
-
+# Caso o usuário digite 4, será feito a operação de divisão
 elif operacao == '4':
      print(num1, "/", num2, "=", divisao(num1, num2))
 
